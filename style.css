@@ -1,9 +1,76 @@
-#apps {
+* {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  font-size: small;
+  margin: 0px;
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0 12px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.main {
+  padding-top: 200px;
+  margin: auto;
+  width: 400px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#signIn {
+  padding: 7px 10px;
+  font-weight: bold;
+  border-radius: 2px;
+  color: white;
+  background-color:#4684ee;
+}
+
+#google {
+  display:block;
+  margin:0 auto;
+}
+
+#header {
+  float: right;
+  color: #737373;
+}
+
+#footer {
+  color: #6a6666;
+  border: 1px solid #e4e4e4;
+  background-color: #f2f2f2;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+#appsIcon {
+  vertical-align: bottom;
   height: 16px;
   filter: opacity(60%);
 }
 
-
-#mic {
+#micIcon {
+  vertical-align: middle;
   height: 20px;
 }
