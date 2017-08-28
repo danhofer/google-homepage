@@ -19,8 +19,8 @@ li {
 
 input {
   width: 90%;
-  padding: 10px;
-  font-size: 16px;
+  padding: 12px;
+  font-size: 18px;
   border: 0px
 }
 
@@ -31,7 +31,7 @@ input:focus {
 .main {
   padding-top: 200px;
   margin: auto;
-  width: 400px;
+  width: 550px;
 }
 
 .left {
@@ -51,13 +51,15 @@ input:focus {
 }
 
 .button {
-  margin: 10px;
+  display: inline;
+  margin: 15px 3px;
   color: #757575;
   background-color: #f2f2f2;
-  padding: 10px;
+  padding: 10px 15px;
   font-weight: bold;
   font-size: small;
 }
+
 
 #signIn {
   padding: 7px 10px;
@@ -102,7 +104,14 @@ input:focus {
 
 #micIcon {
   position: relative;
-  left: -5%;
+  left: -2%;
   vertical-align: middle;
   height: 20px;
+}
+
+#buttons {
+  max-width: 280px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
