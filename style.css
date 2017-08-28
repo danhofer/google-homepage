@@ -18,9 +18,14 @@ li {
 }
 
 input {
-  width: 80%;
+  width: 90%;
   padding: 10px;
   font-size: 16px;
+  border: 0px
+}
+
+input:focus {
+  outline-width: 0;
 }
 
 .main {
@@ -37,6 +42,23 @@ input {
   float: right;
 }
 
+.left > li {
+  margin: 0px 2px;
+}
+
+.right > li {
+  margin: 0px 2px;
+}
+
+.button {
+  margin: 10px;
+  color: #757575;
+  background-color: #f2f2f2;
+  padding: 10px;
+  font-weight: bold;
+  font-size: small;
+}
+
 #signIn {
   padding: 7px 10px;
   font-weight: bold;
@@ -47,12 +69,19 @@ input {
 
 #google {
   display:block;
-  margin:0 auto;
+  margin: 0 auto;
+}
+
+#searchbox {
+  border: 1px;
+  border-color: grey;
+  box-shadow: 1px 1px 5px grey;
 }
 
 #header {
   float: right;
   color: #737373;
+  padding: 7px 20px;
 }
 
 #footer {
@@ -62,6 +91,7 @@ input {
   position: fixed;
   width: 100%;
   bottom: 0;
+  padding: 2px;
 }
 
 #appsIcon {
@@ -71,6 +101,8 @@ input {
 }
 
 #micIcon {
+  position: relative;
+  left: -5%;
   vertical-align: middle;
   height: 20px;
 }
