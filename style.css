@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   font-size: small;
   margin: 0px;
@@ -60,6 +69,15 @@ input:focus {
   font-size: small;
 }
 
+.button:hover {
+  box-shadow: 0px 0px 0px 1px hsla(0, 0%, 75%, 1);
+  border-radius: 2px;
+  color: black;
+}
+
+.button:active {
+  box-shadow: 0px 0px 0px 1px #4684ee;
+}
 
 #signIn {
   padding: 7px 10px;
@@ -67,6 +85,14 @@ input:focus {
   border-radius: 2px;
   color: white;
   background-color:#4684ee;
+}
+
+#signIn:hover {
+  box-shadow: 1px 1px 1px -1px grey;
+}
+
+#signIn:active {
+  background-color:hsla(218, 83%, 50%, 1);
 }
 
 #google {
@@ -78,6 +104,10 @@ input:focus {
   border: 1px;
   border-color: grey;
   box-shadow: 1px 1px 5px grey;
+}
+
+#searchbox:hover {
+  box-shadow: 1px 1px 7px grey;
 }
 
 #header {
@@ -100,6 +130,10 @@ input:focus {
   vertical-align: bottom;
   height: 16px;
   filter: opacity(60%);
+}
+
+#appsIcon:hover {
+  filter: opacity(100%);
 }
 
 #micIcon {
